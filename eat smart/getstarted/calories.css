@@ -1,0 +1,136 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #1c1c1c;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  color: #4caf50;
+  font-size: 2.5rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: 30px 0;
+}
+
+.calorie-input-section {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.calorie-input-section h2 {
+  font-size: 1.8rem;
+  color: #4caf50;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #4caf50;
+  background-color: #3c3c3c;
+  color: white;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.calorie-summary-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calorie-summary-section h2 {
+  font-size: 1.8rem;
+  color: #4caf50;
+}
+
+#total-calories {
+  font-size: 2rem;
+  color: #4caf50;
+}
+
+.calorie-list-section {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.calorie-list-section h2 {
+  font-size: 1.8rem;
+  color: #4caf50;
+}
+
+#food-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#food-list li {
+  background-color: #3c3c3c;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#food-list li span {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #1c1c1c;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-media img {
+  margin: 0 10px;
+  width: 30px;
+  transition: transform 0.3s;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}

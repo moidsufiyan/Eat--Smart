@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Tracker</title>
+    <link rel="stylesheet" href="calories.css">
+</head>
+<body>
+    <header>
+        <h1>Calories Tracker</h1>
+    </header>
+
+    <main>
+        <section class="calorie-input-section">
+            <h2>Enter Your Food and Calories</h2>
+            <form id="calorie-form">
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+
+                <label for="food">Food Item:</label>
+                <input type="text" id="food" placeholder="e.g., Apple" required>
+
+                <label for="calories">Calories:</label>
+                <input type="number" id="calories" placeholder="e.g., 95" required>
+
+                <button type="submit">Add Food</button>
+            </form>
+        </section>
+
+        <section class="calorie-summary-section">
+            <h2>Total Calorie Intake for Today</h2>
+            <p id="total-calories">0</p>
+        </section>
+
+        <section class="calorie-list-section">
+            <h2>Today's Food Log</h2>
+            <ul id="food-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook-new.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/twitter-circled.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="calories.js"></script>
+</body>
+</html>
